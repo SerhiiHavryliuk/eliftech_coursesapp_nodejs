@@ -1,0 +1,52 @@
+.nav-wrapper{
+    padding: 0 2rem;
+}
+
+.price{
+    font-size: 2rem;
+}
+
+.course{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course h1{
+    margin-bottom:  2rem;
+}
+
+.course img{
+    max-width: 400px;
+    height: auto;
+}
+
+.course .price.big{
+    font-size: 2.5rem;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav, footer.page-footer{
+    background: black;
+}
+
+nav .brand-logo{
+    color: yellow;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-course{
+    width: 22%;
+    margin: 5px;
+}

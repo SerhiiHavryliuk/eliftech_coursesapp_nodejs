@@ -1,0 +1,27 @@
+<nav>
+<div class="nav-wrapper">
+    <a href="#" class="brand-logo">App courses</a>
+<ul id="nav-mobile" class="right hide-on-med-and-down">
+
+    <!--    #if isIndex  - это директива, isIndex - переменная которая задается в роутах index.js-->
+    {{#if isIndex }}
+        <li class="active"><a href="/">Main</a></li>
+    {{else}}
+        <li><a href="/">Main</a></li>
+    {{/if}}
+
+    {{#if isCourses }}
+        <li class="active"><a href="/">Course</a></li>
+    {{else}}
+        <li><a href="/courses">Course</a></li>
+    {{/if}}
+
+    {{#if isAdd }}
+        <li class="active"><a href="/">Add course</a></li>
+    {{else}}
+        <li><a href="/add">Add course</a></li>
+    {{/if}}
+
+</ul>
+</div>
+</nav>
